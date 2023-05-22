@@ -10,6 +10,14 @@ const theme = extendTheme({
     body: `'Raleway', sans-serif`,
   },
   config,
+  color: {
+    red: "#b21807",
+    orange: "#c8a17e",
+    yellow: "#efd079",
+    blue: "#717c86",
+    gray: "#2E130B",
+    pink: "#FF0000",
+  },
 });
 
 export default theme;
