@@ -1,11 +1,4 @@
-import {
-  HStack,
-  Icon,
-  Link,
-  Tag,
-  TagLabel,
-  TagLeftIcon,
-} from "@chakra-ui/react";
+import { HStack, Icon, Link } from "@chakra-ui/react";
 import { AiFillFacebook, AiFillInstagram } from "react-icons/ai";
 
 const AboutBar = () => {

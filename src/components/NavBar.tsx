@@ -1,15 +1,5 @@
-import {
-  HStack,
-  Heading,
-  Img,
-  Stack,
-  Tag,
-  TagLabel,
-  TagLeftIcon,
-} from "@chakra-ui/react";
+import { HStack, Heading, Img } from "@chakra-ui/react";
 import logo from "../assets/logo.jpg";
-import { AiFillInstagram } from "react-icons/ai";
-import { AiFillFacebook } from "react-icons/ai";
 
 export const NavBar = () => {
   return (

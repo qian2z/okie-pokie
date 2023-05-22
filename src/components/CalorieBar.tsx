@@ -1,4 +1,4 @@
-import { HStack, Stack, Tag, TagLabel, TagLeftIcon } from "@chakra-ui/react";
+import { Stack, Tag, TagLabel, TagLeftIcon } from "@chakra-ui/react";
 import { AiFillFire } from "react-icons/ai";
 import { BiBowlRice } from "react-icons/bi";
 import { MdOutlineEgg } from "react-icons/md";

@@ -1,4 +1,4 @@
-import { Badge, Icon, Text } from "@chakra-ui/react";
+import { Badge, Icon } from "@chakra-ui/react";
 import { GiChiliPepper } from "react-icons/gi";
 
 interface Props {
