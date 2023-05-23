@@ -1,9 +1,27 @@
-import { HStack, Icon, Link } from "@chakra-ui/react";
+import {
+  HStack,
+  Icon,
+  Link,
+  Stack,
+  Tag,
+  TagLabel,
+  Text,
+} from "@chakra-ui/react";
 import { AiFillFacebook, AiFillInstagram } from "react-icons/ai";
+import { RiWhatsappFill } from "react-icons/ri";
 
-const AboutBar = () => {
-  return (
-    <HStack mt={0} justifyContent="center">
+const AboutBar = () => (
+  <Stack mt={0} display="flex" flexDirection="column" alignItems="center">
+    <HStack>
+      <Icon as={RiWhatsappFill} boxSize="20px" />
+      <Link href="https://wa.me/60176969682" isExternal>
+        WhatsApp
+      </Link>
+      <Tag size="sm" colorScheme="blue">
+        <TagLabel>CLICK HERE</TagLabel>
+      </Tag>
+    </HStack>
+    <HStack>
       <HStack>
         <Icon as={AiFillInstagram} boxSize="20px" />
         <Link href="https://www.instagram.com/okie_pokie_bowl/" isExternal>
@@ -20,7 +38,7 @@ const AboutBar = () => {
         </Link>
       </HStack>
     </HStack>
-  );
-};
+  </Stack>
+);
 
 export default AboutBar;

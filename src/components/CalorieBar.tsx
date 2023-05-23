@@ -1,4 +1,4 @@
-import { Stack, Tag, TagLabel, TagLeftIcon } from "@chakra-ui/react";
+import { HStack, Tag, TagLabel, TagLeftIcon } from "@chakra-ui/react";
 import { AiFillFire } from "react-icons/ai";
 import { BiBowlRice } from "react-icons/bi";
 import { MdOutlineEgg } from "react-icons/md";
@@ -11,7 +11,7 @@ interface Props {
 
 const CalorieBar = ({ calories, carbs, protein }: Props) => {
   return (
-    <Stack mt={3}>
+    <HStack mt={3}>
       {calories !== "" && (
         <Tag size="sm" colorScheme="teal">
           <TagLeftIcon boxSize="10px" as={AiFillFire} />
@@ -21,16 +21,16 @@ const CalorieBar = ({ calories, carbs, protein }: Props) => {
       {carbs !== "" && (
         <Tag size="sm" colorScheme="purple">
           <TagLeftIcon boxSize="10px" as={BiBowlRice} />
-          <TagLabel>CARBOHYDRATES: {carbs}</TagLabel>
+          <TagLabel>{carbs}</TagLabel>
         </Tag>
       )}
       {protein !== "" && (
         <Tag size="sm" colorScheme="green">
           <TagLeftIcon boxSize="10px" as={MdOutlineEgg} />
-          <TagLabel>PROTEIN: {protein}</TagLabel>
+          <TagLabel>{protein}</TagLabel>
         </Tag>
       )}
-    </Stack>
+    </HStack>
   );
 };
 
