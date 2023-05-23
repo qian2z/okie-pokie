@@ -7,7 +7,7 @@ const AboutBar = () => {
       <HStack>
         <Icon as={AiFillInstagram} boxSize="20px" />
         <Link href="https://www.instagram.com/okie_pokie_bowl/" isExternal>
-          @okie_pokie_bowl
+          okie_pokie_bowl
         </Link>
       </HStack>
       <HStack>

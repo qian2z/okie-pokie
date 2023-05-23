@@ -8,6 +8,7 @@ const MenuGrid = () => {
       columns={{ sm: 1, md: 2, lg: 3, xl: 4 }}
       mx={1}
       spacingY={2}
+      spacingX={1}
       display="grid"
       justifyContent="center"
       justifyItems="center"

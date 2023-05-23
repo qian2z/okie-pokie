@@ -1,6 +1,19 @@
+import snowwhite from "../assets/snowwhite.png";
+import oppa from "../assets/oppa.png";
+import gsc from "../assets/gsc.png";
+import hoolala from "../assets/hoolala.png";
+import samurai from "../assets/samurai.png";
+import unagi from "../assets/unagi.png";
+import sawadeekap from "../assets/sawadeekap.png";
+import prawnsta from "../assets/prawnsta.png";
+import tofurice from "../assets/tofurice.png";
+import mangosalad from "../assets/mangosalad.png";
+import enzymes from "../assets/enzymes.png";
+
 export interface MyMenu {
   id: number;
   name: string;
+  image: string;
   ingredients: string;
   calories: string;
   carbs: string;
@@ -15,6 +28,7 @@ export const myMenus: MyMenu[] = [
   {
     id: 1,
     name: "Snow White Bowl",
+    image: snowwhite,
     ingredients:
       "Soba 荞麦面, Tofu 豆腐, Cherry Tomato 圣女果, Cucumber 黄瓜丝, Carrot 萝卜丝, Boiled Egg 水煮蛋, Edamame 毛豆, Sesame 芝麻",
     calories: "486 CALORIES",
@@ -28,6 +42,7 @@ export const myMenus: MyMenu[] = [
   {
     id: 2,
     name: "Oppa Bowl",
+    image: oppa,
     ingredients:
       "Brown Rice 糙米, Chicken Breast 鸡胸肉, Cherry Tomato 圣女果, Cucumber 黄瓜丝, Pickle Radish 泡菜萝卜, Boiled Egg 水煮蛋, Edamame 毛豆, Sesame 芝麻",
     calories: "549 CALORIES",
@@ -41,6 +56,7 @@ export const myMenus: MyMenu[] = [
   {
     id: 3,
     name: "GSC Bowl",
+    image: gsc,
     ingredients:
       "Brown Rice 糙米, Chicken Breast 鸡胸肉, Cherry Tomato 圣女果, Cucumber 黄瓜丝, Pickle Radish 泡菜萝卜, Boiled Egg 水煮蛋, Sesame 芝麻",
     calories: "463 CALORIES",
@@ -54,6 +70,7 @@ export const myMenus: MyMenu[] = [
   {
     id: 4,
     name: "Hoolala Bowl",
+    image: hoolala,
     ingredients:
       "Brown Rice 糙米, Chicken Breast 鸡胸肉, Tamago 玉子烧, Cherry Tomato 圣女果, Broccoli 西兰花, Carrot 萝卜丝, Corns 玉米粒, Cucumber 黄瓜丝, Sesame 芝麻",
     calories: "443 CALORIES",
@@ -67,6 +84,7 @@ export const myMenus: MyMenu[] = [
   {
     id: 5,
     name: "Samurai Bowl",
+    image: samurai,
     ingredients:
       "Brown Rice 糙米, Salmon 三文鱼, Cherry Tomato 圣女果, Broccoli 西兰花, Pickle Radish 泡菜萝卜, Corns 玉米粒, Sesame 芝麻",
     calories: "660 CALORIES",
@@ -80,6 +98,7 @@ export const myMenus: MyMenu[] = [
   {
     id: 6,
     name: "Unagi Bowl",
+    image: unagi,
     ingredients:
       "Brown Rice 糙米, Unagi 鳗鱼, Cherry Tomato 圣女果, Cucumber 黄瓜丝, Pickle Radish 泡菜萝卜, Edamame 毛豆, Tamago 玉子烧, Sesame 芝麻",
     calories: "447 CALORIES",
@@ -93,6 +112,7 @@ export const myMenus: MyMenu[] = [
   {
     id: 7,
     name: "Sawadeekap Bowl",
+    image: sawadeekap,
     ingredients:
       "Konjac Noodles 魔芋面, Prawn 虾, Mango 芒果, Cucumber 黄瓜丝, Carrot 萝卜丝, Cherry Tomato 圣女果, Coriander 香菜, Onion 洋葱丝, Peanut 花生碎",
     calories: "344 CALORIES",
@@ -106,6 +126,7 @@ export const myMenus: MyMenu[] = [
   {
     id: 8,
     name: "Prawnsta (Pasta)",
+    image: prawnsta,
     ingredients:
       "Pasta 意大利面, Prawn 虾, Cherry Tomato 圣女果, Cucumber 黄瓜丝, Pickle Radish 泡菜萝卜, Boiled Egg 水煮蛋, Edamame 毛豆, Sesame 芝麻",
     calories: "370 CALORIES",
@@ -119,11 +140,12 @@ export const myMenus: MyMenu[] = [
   {
     id: 9,
     name: "Tofu on Rice",
+    image: tofurice,
     ingredients:
       "Brown Rice 糙米, Tofu 豆腐, Cherry Tomato 圣女果, Cucumber 黄瓜丝, Carrot 萝卜丝, Boiled Egg 水煮蛋, Edamame 毛豆, Sesame 芝麻",
-    calories: "",
-    carbs: "",
-    protein: "",
+    calories: "486 CALORIES",
+    carbs: "38g",
+    protein: "19g",
     sauce: "Teriyaki Sauce 照烧酱",
     spicy: 0,
     color: "gray",
@@ -132,6 +154,7 @@ export const myMenus: MyMenu[] = [
   {
     id: 10,
     name: "Mango Salad",
+    image: mangosalad,
     ingredients:
       "Konjac Noodles 魔芋面, Mango 芒果, Cherry Tomato 圣女果, Cucumber 黄瓜丝, Carrot 萝卜丝, Coriander 香菜, Onion 洋葱丝, Peanut 花生碎",
     calories: "",
@@ -141,5 +164,19 @@ export const myMenus: MyMenu[] = [
     spicy: 2,
     color: "pink",
     price: "RM 9.90",
+  },
+  {
+    id: 11,
+    name: "Fun Enzymes",
+    image: enzymes,
+    ingredients:
+      "Fruit enzyme frinks contain probiotics, antioxidants & enzymes. Improve gut health & to regulate our body's pH levels.",
+    calories: "",
+    carbs: "",
+    protein: "",
+    sauce: "",
+    spicy: 0,
+    color: "pink",
+    price: "RM 6.90",
   },
 ];

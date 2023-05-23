@@ -9,7 +9,6 @@ import {
   Text,
 } from "@chakra-ui/react";
 import { MyMenu } from "../data/menu";
-import bowl from "../assets/bowl.png";
 import SauceBadge from "./SauceBadge";
 import CalorieBar from "./CalorieBar";
 
@@ -31,9 +30,9 @@ const MenuCard = ({ menu }: Props) => {
     >
       <Image
         objectFit="cover"
-        boxSize="200px"
-        src={bowl}
-        alt="bowl"
+        boxSize="250px"
+        src={menu.image}
+        alt={menu.name}
         borderRadius="lg"
         mt={3}
       />
