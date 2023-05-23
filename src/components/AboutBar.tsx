@@ -1,12 +1,4 @@
-import {
-  HStack,
-  Icon,
-  Link,
-  Stack,
-  Tag,
-  TagLabel,
-  Text,
-} from "@chakra-ui/react";
+import { HStack, Icon, Link, Stack, Tag, TagLabel } from "@chakra-ui/react";
 import { AiFillFacebook, AiFillInstagram } from "react-icons/ai";
 import { RiWhatsappFill } from "react-icons/ri";
 
