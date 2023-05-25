@@ -30,7 +30,7 @@ export const myMenus: MyMenu[] = [
     name: "Snow White Bowl",
     image: snowwhite,
     ingredients:
-      "Soba 荞麦面, Tofu 豆腐, Cherry Tomato 圣女果, Cucumber 黄瓜丝, Carrot 萝卜丝, Boiled Egg 水煮蛋, Edamame 毛豆, Sesame 芝麻",
+      "Soba 荞麦面, Boiled Egg 水煮蛋, Tofu 豆腐, Lettuce 生菜, Broccoli 西兰花, Cherry Tomato 圣女果, Cucumber 黄瓜丝, Carrot 萝卜丝, Edamame 毛豆, Seaweed 紫菜丝, Sesame 芝麻",
     calories: "486 CALORIES",
     carbs: "38g",
     protein: "19g",
@@ -44,7 +44,7 @@ export const myMenus: MyMenu[] = [
     name: "Oppa Bowl",
     image: oppa,
     ingredients:
-      "Brown Rice 糙米, Chicken Breast 鸡胸肉, Cherry Tomato 圣女果, Cucumber 黄瓜丝, Pickle Radish 泡菜萝卜, Boiled Egg 水煮蛋, Edamame 毛豆, Sesame 芝麻",
+      "Brown Rice 糙米, Chicken Breast 鸡胸肉, Boiled Egg 水煮蛋, Lettuce 生菜, Cherry Tomato 圣女果, Cucumber 黄瓜丁, Pickle Radish 腌萝卜, Edamame 毛豆, Corn 玉米粒, Seaweed 紫菜丝, Sesame 芝麻",
     calories: "549 CALORIES",
     carbs: "54g",
     protein: "29g",
@@ -58,7 +58,7 @@ export const myMenus: MyMenu[] = [
     name: "GSC Bowl",
     image: gsc,
     ingredients:
-      "Brown Rice 糙米, Chicken Breast 鸡胸肉, Cherry Tomato 圣女果, Cucumber 黄瓜丝, Pickle Radish 泡菜萝卜, Boiled Egg 水煮蛋, Sesame 芝麻",
+      "Brown Rice 糙米, Chicken Breast 鸡胸肉, Boiled Egg 水煮蛋, Lettuce 生菜, Cherry Tomato 圣女果, Cucumber 黄瓜丁, Pickle Radish 腌萝卜, Corn 玉米粒, Edamame 毛豆, Seaweed 紫菜丝, Sesame 芝麻",
     calories: "463 CALORIES",
     carbs: "49g",
     protein: "25g",
@@ -72,7 +72,7 @@ export const myMenus: MyMenu[] = [
     name: "Hoolala Bowl",
     image: hoolala,
     ingredients:
-      "Brown Rice 糙米, Chicken Breast 鸡胸肉, Tamago 玉子烧, Cherry Tomato 圣女果, Broccoli 西兰花, Carrot 萝卜丝, Corns 玉米粒, Cucumber 黄瓜丝, Sesame 芝麻",
+      "Brown Rice 糙米, Chicken Breast 鸡胸肉, Tamago 玉子烧, Lettuce 生菜, Broccoli 西兰花, Cherry Tomato 圣女果, Cucumber 黄瓜丁, Carrot 萝卜丝, Corn 玉米粒, Seaweed 紫菜丝, Sesame 芝麻",
     calories: "443 CALORIES",
     carbs: "60g",
     protein: "32g",
@@ -86,7 +86,7 @@ export const myMenus: MyMenu[] = [
     name: "Samurai Bowl",
     image: samurai,
     ingredients:
-      "Brown Rice 糙米, Salmon 三文鱼, Cherry Tomato 圣女果, Broccoli 西兰花, Pickle Radish 泡菜萝卜, Corns 玉米粒, Sesame 芝麻",
+      "Brown Rice 糙米, Salmon 三文鱼, Lettuce 生菜, Broccoli 西兰花, Cherry Tomato 圣女果, Carrot 萝卜丝, Edamame 毛豆, Pickle Radish 腌萝卜, Corn 玉米粒, Seaweed 紫菜丝, Sesame 芝麻",
     calories: "660 CALORIES",
     carbs: "56g",
     protein: "53g",
@@ -100,7 +100,7 @@ export const myMenus: MyMenu[] = [
     name: "Unagi Bowl",
     image: unagi,
     ingredients:
-      "Brown Rice 糙米, Unagi 鳗鱼, Cherry Tomato 圣女果, Cucumber 黄瓜丝, Pickle Radish 泡菜萝卜, Edamame 毛豆, Tamago 玉子烧, Sesame 芝麻",
+      "Brown Rice 糙米, Unagi 鳗鱼, Tamago 玉子烧, Lettuce 生菜, Cherry Tomato 圣女果, Pickle Radish 腌萝卜, Corn 玉米粒, Edamame 毛豆, Seaweed 紫菜丝, Sesame 芝麻",
     calories: "447 CALORIES",
     carbs: "58g",
     protein: "13g",
@@ -114,7 +114,7 @@ export const myMenus: MyMenu[] = [
     name: "Sawadeekap Bowl",
     image: sawadeekap,
     ingredients:
-      "Konjac Noodles 魔芋面, Prawn 虾, Mango 芒果, Cucumber 黄瓜丝, Carrot 萝卜丝, Cherry Tomato 圣女果, Coriander 香菜, Onion 洋葱丝, Peanut 花生碎",
+      "Konjac Noodles 魔芋面, Prawn 虾, Lettuce 生菜, Mango 芒果丝, Cherry Tomato 圣女果, Cucumber 黄瓜丝, Carrot 萝卜丝, Coriander 香菜, Onion 洋葱丝, Peanut 花生碎",
     calories: "344 CALORIES",
     carbs: "21g",
     protein: "26g",
@@ -128,7 +128,7 @@ export const myMenus: MyMenu[] = [
     name: "Prawnsta (Pasta)",
     image: prawnsta,
     ingredients:
-      "Pasta 意大利面, Prawn 虾, Cherry Tomato 圣女果, Cucumber 黄瓜丝, Pickle Radish 泡菜萝卜, Boiled Egg 水煮蛋, Edamame 毛豆, Sesame 芝麻",
+      "Pasta 意大利面, Prawn 虾, Lettuce 生菜, Cherry Tomato 圣女果, Carrot 萝卜丝, Cucumber 黄瓜丁, Onion 洋葱丝, Coriander 香菜, Sesame 芝麻, Peanut 花生碎",
     calories: "370 CALORIES",
     carbs: "37g",
     protein: "23g",
@@ -142,7 +142,7 @@ export const myMenus: MyMenu[] = [
     name: "Tofu on Rice",
     image: tofurice,
     ingredients:
-      "Brown Rice 糙米, Tofu 豆腐, Cherry Tomato 圣女果, Cucumber 黄瓜丝, Carrot 萝卜丝, Boiled Egg 水煮蛋, Edamame 毛豆, Sesame 芝麻",
+      "Brown Rice 糙米, Boiled Egg 水煮蛋, Tofu 豆腐, Lettuce 生菜, Broccoli 西兰花, Cherry Tomato 圣女果, Cucumber 黄瓜丝, Carrot 萝卜丝, Edamame 毛豆, Seaweed 紫菜丝, Sesame 芝麻",
     calories: "486 CALORIES",
     carbs: "38g",
     protein: "19g",
@@ -156,7 +156,7 @@ export const myMenus: MyMenu[] = [
     name: "Mango Salad",
     image: mangosalad,
     ingredients:
-      "Konjac Noodles 魔芋面, Mango 芒果, Cherry Tomato 圣女果, Cucumber 黄瓜丝, Carrot 萝卜丝, Coriander 香菜, Onion 洋葱丝, Peanut 花生碎",
+      "Konjac Noodles 魔芋面, Mango 芒果丝, Lettuce 生菜, Cherry Tomato 圣女果, Cucumber 黄瓜丝, Carrot 萝卜丝, Onion 洋葱丝, Coriander 香菜, Peanut 花生碎",
     calories: "",
     carbs: "",
     protein: "",
