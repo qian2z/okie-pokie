@@ -10,7 +10,7 @@ const AboutBar = () => (
         WhatsApp
       </Link>
       <Tag size="sm" colorScheme="blue">
-        <TagLabel>CLICK HERE</TagLabel>
+        <TagLabel>PRE-ORDER HERE</TagLabel>
       </Tag>
     </HStack>
     <HStack>
