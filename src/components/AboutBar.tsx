@@ -1,16 +1,19 @@
 import { HStack, Icon, Link, Stack, Tag, TagLabel } from "@chakra-ui/react";
 import { AiFillFacebook, AiFillInstagram } from "react-icons/ai";
 import { RiWhatsappFill } from "react-icons/ri";
+import { FaWaze } from "react-icons/fa";
+import { BiMap } from "react-icons/bi";
 
 const AboutBar = () => (
   <Stack mt={0} display="flex" flexDirection="column" alignItems="center">
     <HStack>
       <Icon as={RiWhatsappFill} boxSize="20px" />
-      <Link href="https://wa.me/60176969682" isExternal>
-        WhatsApp
-      </Link>
-      <Tag size="sm" colorScheme="blue">
-        <TagLabel>PRE-ORDER HERE</TagLabel>
+      <Tag size="md" colorScheme="blue">
+        <TagLabel>
+          <Link href="https://wa.me/60176969682" isExternal>
+            PRE-ORDER HERE
+          </Link>
+        </TagLabel>
       </Tag>
     </HStack>
     <HStack>
@@ -28,6 +31,28 @@ const AboutBar = () => (
         >
           Okie Pokie Bowl
         </Link>
+      </HStack>
+    </HStack>
+    <HStack>
+      <HStack>
+        <Icon as={FaWaze} boxSize="20px" />
+        <Tag size="md" colorScheme="green">
+          <TagLabel>
+            <Link href="https://waze.com/ul/hw281skq4f" isExternal>
+              Waze
+            </Link>
+          </TagLabel>
+        </Tag>
+      </HStack>
+      <HStack>
+        <Icon as={BiMap} boxSize="20px" />
+        <Tag size="md" colorScheme="green">
+          <TagLabel>
+            <Link href="https://goo.gl/maps/uxw47anL2KNKsyZv8" isExternal>
+              Google Map
+            </Link>
+          </TagLabel>
+        </Tag>
       </HStack>
     </HStack>
   </Stack>
