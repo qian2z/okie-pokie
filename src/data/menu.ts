@@ -8,6 +8,7 @@ import sawadeekap from "../assets/sawadeekap.png";
 import prawnsta from "../assets/prawnsta.png";
 import tofurice from "../assets/tofurice.png";
 import mangosalad from "../assets/mangosalad.png";
+import chicpealicious from "../assets/chicpealicious.png";
 import enzymes from "../assets/enzymes.png";
 
 export interface MyMenu {
@@ -25,6 +26,20 @@ export interface MyMenu {
 }
 
 export const myMenus: MyMenu[] = [
+  {
+    id: 12,
+    name: "Chicpealicious",
+    image: chicpealicious,
+    ingredients:
+      "Soba 荞麦面, Chicken Breast 鸡胸肉, Boiled Egg 水煮蛋, Lettuce 生菜, Broccoli 西兰花, Cherry Tomato 圣女果, Cucumber 黄瓜丝, Carrot 萝卜丝, Edamame 毛豆, Seaweed 紫菜丝, Sesame 芝麻",
+    calories: "",
+    carbs: "",
+    protein: "",
+    sauce: "Peanut Sauce 花生酱",
+    spicy: 1,
+    color: "orange",
+    price: "RM 16.90",
+  },
   {
     id: 1,
     name: "Snow White Bowl",
