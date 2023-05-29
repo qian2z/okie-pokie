@@ -1,19 +1,25 @@
 import { SimpleGrid } from "@chakra-ui/react";
-import { myMenus } from "../data/menu";
 import MenuCard from "./MenuCard";
+import useMenu from "../hooks/useMenu";
+import { MyMain } from "../data/main";
 
-const MenuGrid = () => {
+interface Props {
+  selectedMain: MyMain;
+}
+
+const MenuGrid = ({ selectedMain }: Props) => {
+  const { menu } = useMenu(selectedMain.name);
+
   return (
     <SimpleGrid
       columns={{ sm: 1, md: 2, lg: 3, xl: 4 }}
-      mx={1}
       spacingY={2}
       spacingX={1}
       display="grid"
       justifyContent="center"
       justifyItems="center"
     >
-      {myMenus.map((myMenu) => (
+      {menu.map((myMenu) => (
         <MenuCard key={myMenu.id} menu={myMenu} />
       ))}
     </SimpleGrid>

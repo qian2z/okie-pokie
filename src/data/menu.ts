@@ -14,6 +14,7 @@ import enzymes from "../assets/enzymes.png";
 export interface MyMenu {
   id: number;
   name: string;
+  main: string;
   image: string;
   ingredients: string;
   calories: string;
@@ -29,6 +30,7 @@ export const myMenus: MyMenu[] = [
   {
     id: 12,
     name: "Chicpealicious",
+    main: "Noodles",
     image: chicpealicious,
     ingredients:
       "Soba 荞麦面, Chicken Breast 鸡胸肉, Boiled Egg 水煮蛋, Lettuce 生菜, Broccoli 西兰花, Cherry Tomato 圣女果, Cucumber 黄瓜丝, Carrot 萝卜丝, Edamame 毛豆, Seaweed 紫菜丝, Sesame 芝麻",
@@ -43,6 +45,7 @@ export const myMenus: MyMenu[] = [
   {
     id: 1,
     name: "Snow White Bowl",
+    main: "Noodles",
     image: snowwhite,
     ingredients:
       "Soba 荞麦面, Boiled Egg 水煮蛋, Tofu 豆腐, Lettuce 生菜, Broccoli 西兰花, Cherry Tomato 圣女果, Cucumber 黄瓜丝, Carrot 萝卜丝, Edamame 毛豆, Seaweed 紫菜丝, Sesame 芝麻",
@@ -57,6 +60,7 @@ export const myMenus: MyMenu[] = [
   {
     id: 2,
     name: "Oppa Bowl",
+    main: "Rice",
     image: oppa,
     ingredients:
       "Brown Rice 糙米, Chicken Breast 鸡胸肉, Boiled Egg 水煮蛋, Lettuce 生菜, Cherry Tomato 圣女果, Cucumber 黄瓜丁, Pickle Radish 腌萝卜, Edamame 毛豆, Corn 玉米粒, Seaweed 紫菜丝, Sesame 芝麻",
@@ -71,6 +75,7 @@ export const myMenus: MyMenu[] = [
   {
     id: 3,
     name: "GSC Bowl",
+    main: "Rice",
     image: gsc,
     ingredients:
       "Brown Rice 糙米, Chicken Breast 鸡胸肉, Boiled Egg 水煮蛋, Lettuce 生菜, Cherry Tomato 圣女果, Cucumber 黄瓜丁, Pickle Radish 腌萝卜, Corn 玉米粒, Edamame 毛豆, Seaweed 紫菜丝, Sesame 芝麻",
@@ -85,6 +90,7 @@ export const myMenus: MyMenu[] = [
   {
     id: 4,
     name: "Hoolala Bowl",
+    main: "Rice",
     image: hoolala,
     ingredients:
       "Brown Rice 糙米, Chicken Breast 鸡胸肉, Tamago 玉子烧, Lettuce 生菜, Broccoli 西兰花, Cherry Tomato 圣女果, Cucumber 黄瓜丁, Carrot 萝卜丝, Corn 玉米粒, Seaweed 紫菜丝, Sesame 芝麻",
@@ -99,6 +105,7 @@ export const myMenus: MyMenu[] = [
   {
     id: 5,
     name: "Samurai Bowl",
+    main: "Rice",
     image: samurai,
     ingredients:
       "Brown Rice 糙米, Salmon 三文鱼, Lettuce 生菜, Broccoli 西兰花, Cherry Tomato 圣女果, Carrot 萝卜丝, Edamame 毛豆, Pickle Radish 腌萝卜, Corn 玉米粒, Seaweed 紫菜丝, Sesame 芝麻",
@@ -113,6 +120,7 @@ export const myMenus: MyMenu[] = [
   {
     id: 6,
     name: "Unagi Bowl",
+    main: "Rice",
     image: unagi,
     ingredients:
       "Brown Rice 糙米, Unagi 鳗鱼, Tamago 玉子烧, Lettuce 生菜, Cherry Tomato 圣女果, Pickle Radish 腌萝卜, Corn 玉米粒, Edamame 毛豆, Seaweed 紫菜丝, Sesame 芝麻",
@@ -127,6 +135,7 @@ export const myMenus: MyMenu[] = [
   {
     id: 7,
     name: "Sawadeekap Bowl",
+    main: "Noodles",
     image: sawadeekap,
     ingredients:
       "Konjac Noodles 魔芋面, Prawn 虾, Lettuce 生菜, Mango 芒果丝, Cherry Tomato 圣女果, Cucumber 黄瓜丝, Carrot 萝卜丝, Coriander 香菜, Onion 洋葱丝, Peanut 花生碎",
@@ -141,6 +150,7 @@ export const myMenus: MyMenu[] = [
   {
     id: 8,
     name: "Prawnsta (Pasta)",
+    main: "Noodles",
     image: prawnsta,
     ingredients:
       "Pasta 意大利面, Prawn 虾, Lettuce 生菜, Cherry Tomato 圣女果, Carrot 萝卜丝, Cucumber 黄瓜丁, Onion 洋葱丝, Coriander 香菜, Sesame 芝麻, Peanut 花生碎",
@@ -155,6 +165,7 @@ export const myMenus: MyMenu[] = [
   {
     id: 9,
     name: "Tofu on Rice",
+    main: "Rice",
     image: tofurice,
     ingredients:
       "Brown Rice 糙米, Boiled Egg 水煮蛋, Tofu 豆腐, Lettuce 生菜, Broccoli 西兰花, Cherry Tomato 圣女果, Cucumber 黄瓜丝, Carrot 萝卜丝, Edamame 毛豆, Seaweed 紫菜丝, Sesame 芝麻",
@@ -169,6 +180,7 @@ export const myMenus: MyMenu[] = [
   {
     id: 10,
     name: "Mango Salad",
+    main: "Salad",
     image: mangosalad,
     ingredients:
       "Konjac Noodles 魔芋面, Mango 芒果丝, Lettuce 生菜, Cherry Tomato 圣女果, Cucumber 黄瓜丝, Carrot 萝卜丝, Onion 洋葱丝, Coriander 香菜, Peanut 花生碎",
@@ -183,6 +195,7 @@ export const myMenus: MyMenu[] = [
   {
     id: 11,
     name: "Fun Enzymes",
+    main: "Drink",
     image: enzymes,
     ingredients:
       "Fruit enzyme frinks contain probiotics, antioxidants & enzymes. Improve gut health & to regulate our body's pH levels.",
