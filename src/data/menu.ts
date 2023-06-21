@@ -8,7 +8,7 @@ import sawadeekap from "../assets/sawadeekap.png";
 import prawnsta from "../assets/prawnsta.png";
 import tofurice from "../assets/tofurice.png";
 import mangosalad from "../assets/mangosalad.png";
-import chicpealicious from "../assets/chicpealicious.png";
+import nasitaklemak from "../assets/nasitaklemak.png";
 import enzymes from "../assets/enzymes.png";
 
 export interface MyMenu {
@@ -29,33 +29,33 @@ export interface MyMenu {
 export const myMenus: MyMenu[] = [
   {
     id: 12,
-    name: "Chicpealicious",
-    main: "Noodles",
-    image: chicpealicious,
+    name: "Nasi Tak Lemak",
+    main: "Rice",
+    image: nasitaklemak,
     ingredients:
-      "Soba 荞麦面, Chicken Breast 鸡胸肉, Boiled Egg 水煮蛋, Lettuce 生菜, Broccoli 西兰花, Cherry Tomato 圣女果, Cucumber 黄瓜丝, Carrot 萝卜丝, Edamame 毛豆, Seaweed 紫菜丝, Sesame 芝麻",
+      "Brown Rice 糙米, Chicken Breast 鸡胸肉, Boiled Egg 水煮蛋, Tofu 豆腐, Lettuce 生菜, Broccoli 西兰花, Cucumber 黄瓜丁, Peanut 花生碎",
     calories: "",
     carbs: "",
     protein: "",
-    sauce: "Peanut Sauce 花生酱",
-    spicy: 1,
-    color: "orange",
+    sauce: "Sambal 參峇辣椒醬",
+    spicy: 2,
+    color: "red",
     price: "RM 16.90",
   },
   {
-    id: 1,
-    name: "Snow White Bowl",
-    main: "Noodles",
-    image: snowwhite,
+    id: 5,
+    name: "Samurai Bowl",
+    main: "Rice",
+    image: samurai,
     ingredients:
-      "Soba 荞麦面, Boiled Egg 水煮蛋, Tofu 豆腐, Lettuce 生菜, Broccoli 西兰花, Cherry Tomato 圣女果, Cucumber 黄瓜丝, Carrot 萝卜丝, Edamame 毛豆, Seaweed 紫菜丝, Sesame 芝麻",
+      "Brown Rice 糙米, Salmon 三文鱼, Lettuce 生菜, Broccoli 西兰花, Cherry Tomato 圣女果, Carrot 萝卜丝, Edamame 毛豆, Pickle Radish 腌萝卜, Corn 玉米粒, Seaweed 紫菜丝, Sesame 芝麻",
     calories: "",
     carbs: "",
     protein: "",
-    sauce: "Peanut Sauce 花生酱",
-    spicy: 1,
-    color: "orange",
-    price: "RM 14.90",
+    sauce: "Teriyaki Sauce 照烧酱",
+    spicy: 0,
+    color: "gray",
+    price: "RM 28.90",
   },
   {
     id: 2,
@@ -71,6 +71,51 @@ export const myMenus: MyMenu[] = [
     spicy: 2,
     color: "red",
     price: "RM 16.90",
+  },
+  {
+    id: 6,
+    name: "Unagi Bowl",
+    main: "Rice",
+    image: unagi,
+    ingredients:
+      "Brown Rice 糙米, Unagi 鳗鱼, Tamago 玉子烧, Lettuce 生菜, Cherry Tomato 圣女果, Pickle Radish 腌萝卜, Corn 玉米粒, Edamame 毛豆, Seaweed 紫菜丝, Sesame 芝麻",
+    calories: "",
+    carbs: "",
+    protein: "",
+    sauce: "Teriyaki Sauce 照烧酱",
+    spicy: 0,
+    color: "gray",
+    price: "RM 29.90",
+  },
+  {
+    id: 8,
+    name: "Prawnsta (Pasta)",
+    main: "Noodles",
+    image: prawnsta,
+    ingredients:
+      "Pasta 意大利面, Prawn 虾, Lettuce 生菜, Cherry Tomato 圣女果, Carrot 萝卜丝, Cucumber 黄瓜丁, Onion 洋葱丝, Coriander 香菜, Sesame 芝麻, Peanut 花生碎",
+    calories: "",
+    carbs: "",
+    protein: "",
+    sauce: "Ginger Spice Sauce 姜香酱",
+    spicy: 1,
+    color: "orange",
+    price: "RM 18.90",
+  },
+  {
+    id: 1,
+    name: "Snow White Bowl",
+    main: "Noodles",
+    image: snowwhite,
+    ingredients:
+      "Soba 荞麦面, Boiled Egg 水煮蛋, Tofu 豆腐, Lettuce 生菜, Broccoli 西兰花, Cherry Tomato 圣女果, Cucumber 黄瓜丝, Carrot 萝卜丝, Edamame 毛豆, Seaweed 紫菜丝, Sesame 芝麻",
+    calories: "",
+    carbs: "",
+    protein: "",
+    sauce: "Peanut Sauce 花生酱",
+    spicy: 1,
+    color: "orange",
+    price: "RM 14.90",
   },
   {
     id: 3,
@@ -103,36 +148,6 @@ export const myMenus: MyMenu[] = [
     price: "RM 17.90",
   },
   {
-    id: 5,
-    name: "Samurai Bowl",
-    main: "Rice",
-    image: samurai,
-    ingredients:
-      "Brown Rice 糙米, Salmon 三文鱼, Lettuce 生菜, Broccoli 西兰花, Cherry Tomato 圣女果, Carrot 萝卜丝, Edamame 毛豆, Pickle Radish 腌萝卜, Corn 玉米粒, Seaweed 紫菜丝, Sesame 芝麻",
-    calories: "",
-    carbs: "",
-    protein: "",
-    sauce: "Teriyaki Sauce 照烧酱",
-    spicy: 0,
-    color: "gray",
-    price: "RM 28.90",
-  },
-  {
-    id: 6,
-    name: "Unagi Bowl",
-    main: "Rice",
-    image: unagi,
-    ingredients:
-      "Brown Rice 糙米, Unagi 鳗鱼, Tamago 玉子烧, Lettuce 生菜, Cherry Tomato 圣女果, Pickle Radish 腌萝卜, Corn 玉米粒, Edamame 毛豆, Seaweed 紫菜丝, Sesame 芝麻",
-    calories: "",
-    carbs: "",
-    protein: "",
-    sauce: "Teriyaki Sauce 照烧酱",
-    spicy: 0,
-    color: "gray",
-    price: "RM 29.90",
-  },
-  {
     id: 7,
     name: "Sawadeekap Bowl",
     main: "Noodles",
@@ -146,21 +161,6 @@ export const myMenus: MyMenu[] = [
     spicy: 2,
     color: "pink",
     price: "RM 19.90",
-  },
-  {
-    id: 8,
-    name: "Prawnsta (Pasta)",
-    main: "Noodles",
-    image: prawnsta,
-    ingredients:
-      "Pasta 意大利面, Prawn 虾, Lettuce 生菜, Cherry Tomato 圣女果, Carrot 萝卜丝, Cucumber 黄瓜丁, Onion 洋葱丝, Coriander 香菜, Sesame 芝麻, Peanut 花生碎",
-    calories: "",
-    carbs: "",
-    protein: "",
-    sauce: "Ginger Spice Sauce 姜香酱",
-    spicy: 1,
-    color: "orange",
-    price: "RM 18.90",
   },
   {
     id: 9,

@@ -52,7 +52,7 @@ const MenuCard = ({ menu }: Props) => {
           />
         </CardBody>
         <CardFooter>
-          <Button variant="solid" colorScheme="blue">
+          <Button variant="solid" colorScheme="teal">
             {menu.price}
           </Button>
         </CardFooter>

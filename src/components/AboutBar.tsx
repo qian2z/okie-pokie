@@ -8,7 +8,7 @@ const AboutBar = () => (
   <Stack mt={0} display="flex" flexDirection="column" alignItems="center">
     <HStack>
       <Icon as={RiWhatsappFill} boxSize="20px" />
-      <Tag size="md" colorScheme="blue">
+      <Tag size="md" colorScheme="whatsapp">
         <TagLabel>
           <Link href="https://wa.me/60176969682" isExternal>
             PRE-ORDER HERE
@@ -36,7 +36,7 @@ const AboutBar = () => (
     <HStack>
       <HStack>
         <Icon as={FaWaze} boxSize="20px" />
-        <Tag size="md" colorScheme="green">
+        <Tag size="md" colorScheme="twitter">
           <TagLabel>
             <Link href="https://waze.com/ul/hw281skq4f" isExternal>
               Waze
@@ -46,7 +46,7 @@ const AboutBar = () => (
       </HStack>
       <HStack>
         <Icon as={BiMap} boxSize="20px" />
-        <Tag size="md" colorScheme="green">
+        <Tag size="md" colorScheme="twitter">
           <TagLabel>
             <Link href="https://goo.gl/maps/uxw47anL2KNKsyZv8" isExternal>
               Google Map
