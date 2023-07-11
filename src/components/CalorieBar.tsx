@@ -3,7 +3,6 @@ import {
   Stack,
   Tag,
   TagLabel,
-  TagLeftIcon,
   TagRightIcon,
   Text,
 } from "@chakra-ui/react";
