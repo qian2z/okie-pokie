@@ -183,7 +183,7 @@ export const myMenus: MyMenu[] = [
     main: "Salad",
     image: mangosalad,
     ingredients:
-      "Konjac Noodles 魔芋面, Mango 芒果丝, Lettuce 生菜, Cherry Tomato 圣女果, Cucumber 黄瓜丝, Carrot 萝卜丝, Onion 洋葱丝, Coriander 香菜, Peanut 花生碎",
+      "Mango 芒果丝, Lettuce 生菜, Cherry Tomato 圣女果, Cucumber 黄瓜丝, Carrot 萝卜丝, Onion 洋葱丝, Coriander 香菜, Peanut 花生碎",
     calories: "",
     carbs: "",
     protein: "",
