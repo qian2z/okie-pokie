@@ -1,36 +1,52 @@
-import { HStack, Tag, TagLabel, TagLeftIcon } from "@chakra-ui/react";
-import { AiFillFire } from "react-icons/ai";
-import { BiBowlRice } from "react-icons/bi";
-import { MdOutlineEgg } from "react-icons/md";
+import { HStack, Stack, Tag, TagLabel, Text } from "@chakra-ui/react";
 
 interface Props {
   calories: string;
   carbs: string;
   protein: string;
+  fats: string;
 }
 
-const CalorieBar = ({ calories, carbs, protein }: Props) => {
+const CalorieBar = ({ calories, carbs, protein, fats }: Props) => {
   return (
-    <HStack mt={3}>
-      {calories !== "" && (
-        <Tag size="sm" colorScheme="teal">
-          <TagLeftIcon boxSize="10px" as={AiFillFire} />
-          <TagLabel>{calories}</TagLabel>
-        </Tag>
-      )}
-      {carbs !== "" && (
-        <Tag size="sm" colorScheme="purple">
-          <TagLeftIcon boxSize="10px" as={BiBowlRice} />
-          <TagLabel>{carbs}</TagLabel>
-        </Tag>
-      )}
-      {protein !== "" && (
-        <Tag size="sm" colorScheme="green">
-          <TagLeftIcon boxSize="10px" as={MdOutlineEgg} />
-          <TagLabel>{protein}</TagLabel>
-        </Tag>
-      )}
-    </HStack>
+    <Stack mt={3}>
+      <HStack>
+        {calories !== "" && (
+          <>
+            <Tag size="sm" colorScheme="teal">
+              <TagLabel>ENERGY</TagLabel>
+            </Tag>
+            <Text>{calories}</Text>
+          </>
+        )}
+      </HStack>
+      <HStack mt={1}>
+        {carbs !== "" && (
+          <>
+            <Tag size="sm" colorScheme="purple">
+              <TagLabel>CARBS</TagLabel>
+            </Tag>
+            <Text>{carbs}</Text>
+          </>
+        )}
+        {protein !== "" && (
+          <>
+            <Tag size="sm" colorScheme="green">
+              <TagLabel>PROTEIN</TagLabel>
+            </Tag>
+            <Text>{protein}</Text>
+          </>
+        )}
+        {fats !== "" && (
+          <>
+            <Tag size="sm" colorScheme="orange">
+              <TagLabel>FATS</TagLabel>
+            </Tag>
+            <Text>{fats}</Text>
+          </>
+        )}
+      </HStack>
+    </Stack>
   );
 };
 

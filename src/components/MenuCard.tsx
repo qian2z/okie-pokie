@@ -43,6 +43,7 @@ const MenuCard = ({ menu }: Props) => {
             calories={menu.calories}
             carbs={menu.carbs}
             protein={menu.protein}
+            fats={menu.fats}
           />
           <Text py="2">{menu.ingredients}</Text>
           <SauceBadge
