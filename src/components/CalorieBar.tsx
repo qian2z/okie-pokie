@@ -21,15 +21,6 @@ const CalorieBar = ({ calories, carbs, protein, fats }: Props) => {
   return (
     <Stack mt={3}>
       <HStack>
-        {calories !== "" && (
-          <>
-            <Tag size="sm" colorScheme="teal">
-              <TagLabel>ENERGY</TagLabel>
-              <TagRightIcon boxSize="10px" as={AiFillFire} ml={1} mr={0} />
-            </Tag>
-            <Text>{calories}</Text>
-          </>
-        )}
         {carbs !== "" && (
           <>
             <Tag size="sm" colorScheme="purple">
@@ -40,7 +31,7 @@ const CalorieBar = ({ calories, carbs, protein, fats }: Props) => {
           </>
         )}
       </HStack>
-      <HStack mt={1}>
+      <HStack>
         {protein !== "" && (
           <>
             <Tag size="sm" colorScheme="green">
@@ -50,6 +41,8 @@ const CalorieBar = ({ calories, carbs, protein, fats }: Props) => {
             <Text>{protein}</Text>
           </>
         )}
+      </HStack>
+      <HStack>
         {fats !== "" && (
           <>
             <Tag size="sm" colorScheme="orange">
@@ -57,6 +50,18 @@ const CalorieBar = ({ calories, carbs, protein, fats }: Props) => {
               <TagRightIcon boxSize="10px" as={MdWaterDrop} ml={1} mr={0} />
             </Tag>
             <Text>{fats}</Text>
+          </>
+        )}
+      </HStack>
+      <HStack>
+        {calories !== "" && (
+          <>
+            <Tag size="sm" colorScheme="teal">
+              <TagLabel>ENERGY</TagLabel>
+              <TagRightIcon boxSize="10px" as={AiFillFire} ml={1} mr={0} />
+            </Tag>
+            <Text>{calories}</Text>
+            <Text as="i">(sauce not included)</Text>
           </>
         )}
       </HStack>
