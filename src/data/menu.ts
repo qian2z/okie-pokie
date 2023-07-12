@@ -210,7 +210,7 @@ export const myMenus: MyMenu[] = [
     main: "Drink",
     image: enzymes,
     ingredients:
-      "Fruit enzyme frinks contain probiotics, antioxidants & enzymes. Improve gut health & to regulate our body's pH levels.",
+      "Fruit enzyme drinks contain probiotics, antioxidants & enzymes. Improve gut health & to regulate our body's pH levels.",
     calories: "",
     carbs: "",
     protein: "",
