@@ -18,6 +18,12 @@ const theme = extendTheme({
     gray: "#2E130B",
     pink: "#FF0000",
   },
+  breakpoints: {
+    sm: "1em",
+    md: "50em",
+    lg: "74em",
+    xl: "98em",
+  },
 });
 
 export default theme;
