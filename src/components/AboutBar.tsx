@@ -1,8 +1,8 @@
 import { HStack, Icon, Link, Stack, Tag, TagLabel } from "@chakra-ui/react";
 import { AiFillFacebook, AiFillInstagram } from "react-icons/ai";
-import { RiWhatsappFill } from "react-icons/ri";
-import { FaWaze } from "react-icons/fa";
 import { BiMap } from "react-icons/bi";
+import { FaWaze } from "react-icons/fa";
+import { RiWhatsappFill } from "react-icons/ri";
 
 const AboutBar = () => (
   <Stack mt={0} display="flex" flexDirection="column" alignItems="center">
@@ -10,7 +10,7 @@ const AboutBar = () => (
       <Icon as={RiWhatsappFill} boxSize="20px" />
       <Tag size="md" colorScheme="whatsapp">
         <TagLabel>
-          <Link href="https://wa.me/60176969682" isExternal>
+          <Link href="/" isExternal>
             PRE-ORDER HERE
           </Link>
         </TagLabel>
@@ -38,7 +38,7 @@ const AboutBar = () => (
         <Icon as={FaWaze} boxSize="20px" />
         <Tag size="md" colorScheme="twitter">
           <TagLabel>
-            <Link href="https://waze.com/ul/hw281skq4f" isExternal>
+            <Link href="/" isExternal>
               Waze
             </Link>
           </TagLabel>
@@ -48,7 +48,7 @@ const AboutBar = () => (
         <Icon as={BiMap} boxSize="20px" />
         <Tag size="md" colorScheme="twitter">
           <TagLabel>
-            <Link href="https://goo.gl/maps/uxw47anL2KNKsyZv8" isExternal>
+            <Link href="/" isExternal>
               Google Map
             </Link>
           </TagLabel>
